@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+/* Hide scrollbars globally */
+html, body, #root {
+  overflow: hidden !important;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Hide scrollbar utility for Webkit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+}
+
+/* Hide scrollbars on modern browsers */
+* {
+  scrollbar-width: none !important; /* Firefox */
+  -ms-overflow-style: none !important;  /* IE and Edge */
+}
+

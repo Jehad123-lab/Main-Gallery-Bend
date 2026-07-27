@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Remix: Gallery Bend",
+  "description": "A single, highly polished and self-contained Framer-ready React component implementing an interactive fluid simulation webgl gallery with endless inertial virtual scroll physics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
